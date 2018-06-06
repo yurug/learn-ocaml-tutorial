@@ -1,0 +1,1 @@
+let trivial = "Easy!"
