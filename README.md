@@ -1,5 +1,4 @@
-# How to write exercises for the learn-ocaml platform?
-# (Source files)
+# How to write exercises for the learn-ocaml platform? (Resources)
 
 This repository contains the source files for the tutorial
 
