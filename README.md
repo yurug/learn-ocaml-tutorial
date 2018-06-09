@@ -1,4 +1,9 @@
-# Resources of the tutorial "How to write exercises for the learn-ocaml platform?"
+# How to write exercises for the learn-ocaml platform?
+# (Source files)
+
+This repository contains the source files for the tutorial
+
+[How to write exercises for the learn-ocaml platform?](https://github.com/ocaml-sf/learn-ocaml/blob/master/docs/howto-write-exercises.md)
 
 To get the source files for step X do:
 ```
