@@ -1,8 +1,0 @@
-{ "learnocaml_version": "1",
-  "groups":
-  { "Tutorial":
-    { "title": "A trivial exercise",
-      "exercises": [ "trivial" ]
-    }
-  }
-}
