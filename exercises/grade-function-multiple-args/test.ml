@@ -5,7 +5,7 @@ let exercise_1 =
     Section ([ Text "Function:" ; Code "op" ],
              test_function_2_against_solution
                [%ty: int -> int -> int] "op"
-               ~gen:5 [(1,2);(0,1)]
+               ~gen:0 [(1,2);(0,1)]
                
       )
   
