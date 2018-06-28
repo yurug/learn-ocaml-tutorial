@@ -2,9 +2,7 @@
   "groups":
   { "Tutorial":
     { "title": "Step 2 : A first grader by comparison to the solution",
-      "exercises": [ "grade-function",
-		     "grade-function-multiple-args",
-		     "grade-function-polymorphic"]
+      "exercises": [ "sampler-built-in-types" , "sampler-user-defined-types"]
     }
   }
 }
