@@ -37,7 +37,6 @@ let exercise_2 =
              []
           )
 
-    
 let () =
   set_result @@
   ast_sanity_check code_ast @@ fun () ->
