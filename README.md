@@ -1,12 +1,32 @@
-# How to write exercises for the learn-ocaml platform? (Resources)
+#  Step 2: Basic grading by comparison with your solution
 
 This repository contains the source files for the tutorial
 
 [How to write exercises for the learn-ocaml platform?](https://github.com/ocaml-sf/learn-ocaml/blob/master/docs/howto-write-exercises.md)
 
-To get the source files for step X do:
+To go to another step and get the corresponding source files do (for step X):
 ```
 git checkout step-X
 ```
 
-For instance, for step 1, do `git checkout step-1`.
+## What is to learn in this step ?
+
+__How to: __
+* grade a simple function by comparison to a given solution
+* grade multiple-arguments functions
+* grade a polymorphic function 
+
+## List of graded function 
+
+### grade-function/test.ml
+
+* 'identity': ['identity x'] returns x. Tested with integer inputs.
+
+### grade-function-polymorphic/test.ml
+
+* 'identity': ['identity x'] returns x. Tested with integer, char and float inputs.
+
+### grade-function-multiple-args/test.ml
+
+* 'op': ['op x y'] returns the result of 'x * y + y'.
+
