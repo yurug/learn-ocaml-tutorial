@@ -11,22 +11,26 @@ git checkout step-X
 
 ## What is to learn in this step ?
 
-__How to: __
-* grade a simple function by comparison to a given solution
+**How to: **
+
+* grade a arity-one function by comparison to a given solution
+
 * grade multiple-arguments functions
-* grade a polymorphic function 
+
+* grade a polymorphic function with several input types
 
 ## List of graded function 
 
 ### grade-function/test.ml
 
-* 'identity': ['identity x'] returns x. Tested with integer inputs.
+* `identity`: [`identity x`] returns x. Tested with integer inputs.
 
 ### grade-function-polymorphic/test.ml
 
-* 'identity': ['identity x'] returns x. Tested with integer, char and float inputs.
+* `identity`: [`identity x`] returns x. Tested with integer, char and float inputs.
 
 ### grade-function-multiple-args/test.ml
 
-* 'op': ['op x y'] returns the result of 'x * y + y'.
+* `op`: [`op x y`] returns the result of the operation `x * y + y`.
+
 
