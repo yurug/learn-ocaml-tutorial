@@ -2,7 +2,9 @@
   "groups":
   { "Tutorial":
     { "title": "Step 2 : A first grader by comparison to the solution",
-      "exercises": [ "sampler-user-defined-types", "sampler-user-defined-parametric-types"]
+      "exercises": [ "sampler-user-defined-types",
+		     "sampler-user-defined-parametric-types",
+		     "advanced_examples"]
     }
   }
 }

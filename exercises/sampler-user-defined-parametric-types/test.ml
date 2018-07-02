@@ -7,7 +7,6 @@ let sample_col () = match Random.int 2 with
   | 0 -> B
   | _ -> R
       
-(*Random generator for binary trees*)
 let sample_tree (sample: unit -> 'a) : unit -> 'a tree =
   let rec builder h = match h with
     | 0 -> Leaf
@@ -40,7 +39,7 @@ let exercise_2 =
 
 
 (*Method 1: using the ~sampler optional argument*)
-let sample_col_tree () = 
+let sample_col_tree () : col tree = 
   let rec builder h = match h with
     | 0 -> Leaf
     | n -> match Random.int 3 with
