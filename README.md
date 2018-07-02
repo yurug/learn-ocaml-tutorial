@@ -11,7 +11,7 @@ git checkout step-X
 
 ## What is to learn in this step ?
 
-*How to:*
+How to:
 
 * grade a arity-one function by comparison to a given solution
 
