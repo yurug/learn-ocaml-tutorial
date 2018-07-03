@@ -1,7 +1,7 @@
 { "learnocaml_version": "1",
   "groups":
   { "Tutorial":
-    { "title": "Step 2 : A first grader by comparison to the solution",
+    { "title": "Step 3: Grading with generators for Ocaml built-in types",
       "exercises": [ "sampler-built-in-types" , "sampler-user-defined-types"]
     }
   }
