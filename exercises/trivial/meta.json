@@ -4,7 +4,7 @@
   "stars"              : 1, 
   "title"              : "A trivial exercise",
   "shortDescription"   : "How to grade the identity ?",  
-  "identifier"         : "some_unique_identifier",
+  "identifier"         : "step-1",
   "authors"            : [["FirstName Name", "authoremail@email"]],
   "focus"              : [],
   "requirements"       : [],
