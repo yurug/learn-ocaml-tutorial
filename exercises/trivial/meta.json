@@ -1,5 +1,13 @@
 {
-  "learnocaml_version" : "1",
-  "kind"               : "exercise",
-  "stars"              : 0
+  "learnocaml_version" : "2",
+  "kind"               : "exercise", 
+  "stars"              : 1, 
+  "title"              : "A trivial exercise",
+  "shortDescription"   : "How to grade the identity ?",  
+  "identifier"         : "some_unique_identifier",
+  "authors"            : [["FirstName Name", "authoremail@email"]],
+  "focus"              : [],
+  "requirements"       : [],
+  "forward_exercises"  : [],
+  "backward_exercises" : []
 }
