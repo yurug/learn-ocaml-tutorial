@@ -1,10 +1,9 @@
 { "learnocaml_version": "1",
   "groups":
   { "Tutorial":
-    { "title": "Step 2 : A first grader by comparison to the solution",
+    { "title": "Step 4 : Grading with generators for user-defined types",
       "exercises": [ "sampler-user-defined-types",
-		     "sampler-user-defined-parametric-types",
-		     "advanced_examples"]
+		     "sampler-user-defined-parametric-types"]
     }
   }
 }

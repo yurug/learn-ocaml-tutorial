@@ -1,5 +1,13 @@
 {
-  "learnocaml_version" : "1",
-  "kind"               : "exercise",
-  "stars"              : 1
+  "learnocaml_version" : "2",
+  "kind"               : "exercise", 
+  "stars"              : 1, 
+  "title"              : "Automatically generated tests for non-parametric user-defined types",
+  "short_description"   : "Step 4 - Part I",  
+  "identifier"         : "step-4.1",
+  "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
+  "focus"              : [],
+  "requirements"       : [],
+  "forward_exercises"  : [],
+  "backward_exercises" : []
 }
