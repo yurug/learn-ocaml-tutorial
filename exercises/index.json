@@ -1,4 +1,4 @@
-{ "learnocaml_version": "1",
+{ "learnocaml_version": "2",
   "groups":
   { "Tutorial":
     { "title": "Step 3: Grading with generators for Ocaml built-in types",
