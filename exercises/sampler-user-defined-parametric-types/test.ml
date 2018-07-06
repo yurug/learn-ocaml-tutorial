@@ -2,7 +2,7 @@ open Test_lib
 open Report
 
 
-(*Method 2: Defining the samplers*)
+(* Method 2: Defining the samplers using naming convention *)
 let sample_col () = match Random.int 2 with
   | 0 -> B
   | _ -> R
@@ -38,7 +38,7 @@ let exercise_2 =
           )
 
 
-(*Method 1: using the ~sampler optional argument*)
+(* Method 1: using the ~sampler optional argument *)
 let sample_col_tree () : col tree = 
   let rec builder h = match h with
     | 0 -> Leaf
