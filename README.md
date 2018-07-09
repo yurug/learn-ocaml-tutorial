@@ -11,16 +11,13 @@ git checkout step-X
 
 ## What is to learn in this step ?
 
+* How to use a predefined sampler 
 
-* how to use a predefined sampler
+* How to define its own sampler using the optional argument `~sampler`
 
-* list of predefined samplers
+* How to define its own sampler using a naming convention instead of `~sampler` 
 
-* how to define its own sampler using the optional argument `~sampler`
-
-* how to define its own sampler using using a naming convention 
-
-## List of graded function 
+## List of graded functions 
 
 ### sampler-built-in-types/test.ml
 
