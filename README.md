@@ -19,7 +19,7 @@ How to:
 
 * grade a polymorphic function with different input types
 
-## List of graded function 
+## List of graded functions 
 
 ### grade-function/test.ml
 
