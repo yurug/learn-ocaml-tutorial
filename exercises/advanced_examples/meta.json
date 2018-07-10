@@ -1,10 +1,9 @@
-
 {
   "learnocaml_version" : "2",
   "kind"               : "exercise", 
   "stars"              : 2, 
   "title"              : "Advanced Examples",
-  "short_description"   : "Step 4 - III",  
+  "short_description"  : "Step 4 - III",  
   "identifier"         : "step-4.3",
   "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
   "focus"              : [],

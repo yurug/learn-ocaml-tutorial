@@ -1,46 +1,75 @@
 open Test_lib
 open Report
 
+(* Exercise 1 *)
+let sample_position () = { x=sample_int () ; y=sample_int () }
 
-let sample_number () =
-  match Random.int 4 with
-  | 0 -> One
-  | 1 -> Two
-  | 2 -> Three
-  | _ -> Four
+let exercise_1 =
+  Section ([ Text "Function: "; Code "get_x" ],
+           test_function_1_against_solution
+             [%ty: position -> int ]
+             "get_x"
+             ~gen:5
+             [{ x=0 ; y=0 }]
+          )
 
-let sample_color () =
-  match Random.int 4 with
-  | 0 -> Green
-  | 1 -> Red
-  | 2 -> Yellow
-  | _ -> Blue
+(* Exercise 2 *)
 
+let sampler_fun () = match Random.int 3 with
+  | 0 -> succ
+  | 1 -> pred
+  | _ -> fun x -> if x < 0 then -1 else 1 
 
-let exercise_1 = 
-  Section ([ Text "Function: "; Code "pair" ],
+(* With method 2, you need to give an alias to a functional type
+   in order to use the naming convention for the sampler*)
+type f_int_int = int -> int
+
+let sample_f_int_int = sampler_fun
+
+(* With method 1, you don't need to name the functional type*)
+let sampler_2 () =
+  (sample_f_int_int (), sample_list ~min_size:1 ~max_size:10 sample_int ())
+  
+  
+let exercise_2 = 
+  Section ([ Text "Function: "; Code "map" ],
+           (* Grader with method 1 *)
            test_function_2_against_solution
-             [%ty: color -> number -> color * number] "pair"
-             ~sampler:(fun () -> sample_color (), sample_number ())
+             [%ty:  (int -> int) -> int list -> int list ] "map"
+             ~sampler:sampler_2
+             ~gen:5
+             [(succ, [])] @
+           (* Grader with method 2 *)
+           test_function_2_against_solution
+             [%ty:  f_int_int -> int list -> int list ] "map"
              ~gen:5
              []
           )
 
-let exercise_2 =
-  Section ([ Text "Function: "; Code "add" ],
-           test_function_2_against_solution
-             [%ty: color * number -> (color * number) list -> (color * number) list] "add"
-             ~sampler:(fun () ->
-                 (*sample_list is predefined in test_lib.ml*)
-                 let list =  sample_list ~min_size:0 ~max_size:10
-                                (fun () -> sample_color (), sample_number ()) () in
-                 ((sample_color (), sample_number ()), list ) 
-               )
+
+(* Exercise 3 *) 
+
+type pair_int = int * int
+let sample_pair_int () = sample_int (), sample_int ()
+
+let exercise_3 =
+  Section ([ Text "Function: "; Code "first_elt" ],
+           (* Grader with method 1*)
+           test_function_1_against_solution
+             [%ty:  pair_int -> int ] "first_elt"
+             ~sampler: (fun () -> sample_int (), sample_int ())
+             ~gen:5
+             []  @
+           (* Grader with method 2 *)
+           test_function_1_against_solution
+             [%ty:  pair_int -> int ] "first_elt"
              ~gen:5
              []
           )
-    
+
+
+
 let () =
   set_result @@
   ast_sanity_check code_ast @@ fun () ->
-  [ exercise_1; exercise_2 ]
+  [ exercise_1; exercise_2; exercise_3]

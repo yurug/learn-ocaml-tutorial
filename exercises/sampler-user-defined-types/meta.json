@@ -3,7 +3,7 @@
   "kind"               : "exercise", 
   "stars"              : 1, 
   "title"              : "Automatically generated tests for non-parametric user-defined types",
-  "short_description"   : "Step 4 - Part I",  
+  "short_description"  : "Step 4 - Part I",  
   "identifier"         : "step-4.1",
   "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
   "focus"              : [],
