@@ -1,4 +1,4 @@
-# How to write exercises for the learn-ocaml platform? (Resources)
+# Step 4: Grading with generators for user-defined types
 
 This repository contains the source files for the tutorial
 
@@ -11,4 +11,5 @@ git checkout step-X
 
 For instance, for step 1, do `git checkout step-1`.
 
-WIP
+
+## 
