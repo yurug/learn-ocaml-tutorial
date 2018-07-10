@@ -2,9 +2,9 @@
   "learnocaml_version" : "2",
   "kind"               : "exercise", 
   "stars"              : 1, 
-  "title"              : "Advanced Exercises",
+  "title"              : "Advanced Examples",
   "short_description"   : "Step 3 - II",  
-  "identifier"         : "step-3.1",
+  "identifier"         : "step-3.2",
   "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
   "focus"              : [],
   "requirements"       : [],
@@ -12,3 +12,4 @@
   "backward_exercises" : []
 }
 
+m
