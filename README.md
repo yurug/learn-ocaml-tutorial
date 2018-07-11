@@ -46,7 +46,7 @@ type col = R | B
 
 * `monochrome`: [`monochrome t c`] returns a tree with the same structure as `t` where all nodes are colored with the color `c`
 
-### advanced_examples/test.ml
+### advanced-examples-step-4/test.ml
 
 * `push`: [`push elt l`] returns `elt :: l`.
 

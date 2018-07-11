@@ -4,7 +4,7 @@
     { "title": "Step 4 : Grading with generators for user-defined types",
       "exercises": [ "sampler-user-defined-types",
 		     "sampler-user-defined-parametric-types",
-		     "advanced_examples"]
+		     "advanced-examples-step-4"]
     }
   }
 }
