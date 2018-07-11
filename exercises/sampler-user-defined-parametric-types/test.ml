@@ -6,13 +6,13 @@ open Report
 let sample_col () = match Random.int 2 with
   | 0 -> B
   | _ -> R
-      
+
 let sample_tree (sample: unit -> 'a) : unit -> 'a tree =
   let rec builder h = match h with
     | 0 -> Leaf
     | n -> match Random.int 3 with
       | 0 -> Leaf
-      | _ -> Node (builder (h-1), sample (), builder (h-1))    
+      | _ -> Node (builder (h-1), sample (), builder (h-1))
   in
   let h = Random.int 5 + 2 in
   fun () -> builder h
@@ -39,12 +39,12 @@ let exercise_2 =
 
 
 (* Method 1: using the ~sampler optional argument *)
-let sample_col_tree () : col tree = 
+let sample_col_tree () : col tree =
   let rec builder h = match h with
     | 0 -> Leaf
     | n -> match Random.int 3 with
       | 0 -> Leaf
-      | _ -> Node (builder (h-1), sample_col (), builder (h-1))    
+      | _ -> Node (builder (h-1), sample_col (), builder (h-1))
   in
   let h = Random.int 5 + 2 in
   builder h
@@ -57,7 +57,7 @@ let exercise_3 =
              ~gen:5
              []
           )
-    
+
 let () =
   set_result @@
   ast_sanity_check code_ast @@ fun () ->
