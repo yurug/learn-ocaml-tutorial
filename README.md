@@ -13,9 +13,9 @@ git checkout step-X
 
 How to:
 
-* Grade an arity-one function by comparison to a given solution.
+* Grade an unary function by comparison to a given solution.
 
-* Grade multiple-arguments functions.
+* Grade multiple arguments functions.
 
 * Grade a polymorphic function with different input types.
 
@@ -23,11 +23,13 @@ How to:
 
 ### grade-function/test.ml
 
-* `identity`: [`identity x`] returns x. Testing is done on integer inputs.
+* `identity`: [`identity x`] returns x. This example shows how to
+  grade this function with only integer inputs.
 
 ### grade-function-polymorphic/test.ml
 
-* `identity`: [`identity x`] returns x. Testing is done on integer, char and float inputs.
+* `identity`: [`identity x`] returns x. In this example, we show how
+  to grade the identity with integer, char and float inputs.
 
 ### grade-function-multiple-args/test.ml
 
