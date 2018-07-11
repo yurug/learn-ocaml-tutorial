@@ -1,9 +1,9 @@
 {
   "learnocaml_version" : "2",
-  "kind"               : "exercise", 
-  "stars"              : 1, 
+  "kind"               : "exercise",
+  "stars"              : 1,
   "title"              : "A trivial exercise",
-  "shortDescription"   : "How to grade the identity ?",  
+  "shortDescription"   : "How to grade the identity?",
   "identifier"         : "step-1",
   "authors"            : [["FirstName Name", "authoremail@email"]],
   "focus"              : [],
