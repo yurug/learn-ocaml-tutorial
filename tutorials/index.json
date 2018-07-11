@@ -1,0 +1,8 @@
+{ "learnocaml_version": "1",
+  "series":
+  { "tutorials-doc":
+    { "title": "Tutorial Syntaxes Documentation",
+      "tutorials":
+      [ "dummy"]}
+  }
+}
