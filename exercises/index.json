@@ -2,7 +2,7 @@
   "groups":
   { "Tutorial":
     { "title": "Step 3: Grading with generators for Ocaml built-in types",
-      "exercises": [ "sampler-built-in-types", "advanced_examples"]
+      "exercises": [ "sampler-built-in-types", "advanced-examples-step-3"]
     }
   }
 }

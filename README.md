@@ -25,7 +25,7 @@ git checkout step-X
 
 * `pi1`: [`pi1 x y`] returns `x`
 
-### advanced_examples/test.ml
+### advanced-examples-step-3/test.ml
 
 * `push`: [`push elt l`] returns `elt :: l`.
 
