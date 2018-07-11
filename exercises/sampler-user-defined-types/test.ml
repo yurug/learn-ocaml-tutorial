@@ -1,8 +1,8 @@
 open Test_lib
 open Report
 
-   
-(* Sampler for a non-parametric user-defined type 
+
+(* Sampler for a non-parametric user-defined type
    Method 1: Using the ~sampler optional argument *)
 let exercise_1 =
   Section ([ Text "Function: "; Code "color_to_string" ],
@@ -14,7 +14,7 @@ let exercise_1 =
              []
           )
 
-(* Sampler for a non-parametric user-defined type 
+(* Sampler for a non-parametric user-defined type
    Method 2: Define a sampler using a naming convention *)
 let sample_color () : color = match Random.int 4 with
   | 0 -> Red
@@ -30,7 +30,7 @@ let exercise_2 =
              []
           )
 
-    
+
 let () =
   set_result @@
   ast_sanity_check code_ast @@ fun () ->

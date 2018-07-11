@@ -13,15 +13,15 @@ For instance, for step 1, do `git checkout step-1`.
 
 ## What is to learn in this step ?
 
-* How to define a sampler for non-parametric user-defined type 
+* How to define a sampler for non-parametric user-defined type
 
 * How to define a sampler for parametric user-defined type
 
-## List of graded functions 
+## List of graded functions
 
 ### sampler-user-defined-types/test.ml
 
-#### Defined type 
+#### Defined type
 
 ``` ocaml
 type color = Green | Yellow | Red | Blue
@@ -44,7 +44,7 @@ type col = R | B
 
 * `height`: [`height t`] returns the height of the tree `t`
 
-* `monochrome`: [`monochrome t c`] returns a tree with the same structure than `t` where all nodes are colored with the color `c` 
+* `monochrome`: [`monochrome t c`] returns a tree with the same structure as `t` where all nodes are colored with the color `c`
 
 ### advanced_examples/test.ml
 
@@ -54,9 +54,8 @@ type col = R | B
 
 * `opt`: [`opt x`] return `x` if `x = None` and `a` if `x = Some a`
 
-* `opt_add`: [`opt_add x`] returns `0` if `x = None` and `a+b` if `x = Some (a, b)` 
+* `opt_add`: [`opt_add x`] returns `0` if `x = None` and `a+b` if `x = Some (a, b)`
 
 * `apply`
 
 * `array_to_list`
-

@@ -1,1 +1,1 @@
-let color_to_string c = "Put your answer here"
+let color_to_string c = "Put your answer here."
