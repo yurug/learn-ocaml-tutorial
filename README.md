@@ -1,4 +1,4 @@
-#  Step 2: Basic grading by comparison with your solution
+#  Step 5: Other test functions_
 
 This repository contains the source files for the tutorial
 

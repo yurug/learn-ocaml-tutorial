@@ -1,10 +1,9 @@
 { "learnocaml_version": "1",
   "groups":
   { "Tutorial":
-    { "title": "Step 2 : A first grader by comparison to the solution",
-      "exercises": [ "grade-function",
-		     "grade-function-multiple-args",
-		     "grade-function-polymorphic"]
+    { "title": "Step 5 : Grading with different test functions",
+      "exercises": [ "different-test-functions"]
+
     }
   }
 }
