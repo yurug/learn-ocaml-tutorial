@@ -1,9 +1,9 @@
 {
   "learnocaml_version" : "2",
-  "kind"               : "exercise", 
-  "stars"              : 1, 
+  "kind"               : "exercise",
+  "stars"              : 1,
   "title"              : "Grading a polymorphic function",
-  "short_description"   : "Step 2 - Part III",  
+  "short_description"   : "Step 2 - Part III",
   "identifier"         : "step-2.2",
   "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
   "focus"              : [],

@@ -2,7 +2,7 @@ open Test_lib
 open Report
 
 
-let exercise_1 = 
+let exercise_1 =
     Section ([ Text "Function: "; Code "identity" ],
              test_function_1_against_solution
                [%ty: int -> int] (* [identity] tested with integer *)

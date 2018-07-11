@@ -1,7 +1,7 @@
 { "learnocaml_version": "1",
   "groups":
   { "Tutorial":
-    { "title": "Step 2 : A first grader by comparison to the solution",
+    { "title": "Step 2: a first grader by comparison to the solution",
       "exercises": [ "grade-function",
 		     "grade-function-multiple-args",
 		     "grade-function-polymorphic"]

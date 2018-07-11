@@ -9,28 +9,26 @@ To go to another step and get the corresponding source files do (for step X):
 git checkout step-X
 ```
 
-## What is to learn in this step ?
+## What is to learn in this step?
 
 How to:
 
-* grade a arity-one function by comparison to a given solution
+* Grade an arity-one function by comparison to a given solution.
 
-* grade multiple-arguments functions
+* Grade multiple-arguments functions.
 
-* grade a polymorphic function with different input types
+* Grade a polymorphic function with different input types.
 
-## List of graded functions 
+## List of graded functions
 
 ### grade-function/test.ml
 
-* `identity`: [`identity x`] returns x. Tested with integer inputs.
+* `identity`: [`identity x`] returns x. Testing is done on integer inputs.
 
 ### grade-function-polymorphic/test.ml
 
-* `identity`: [`identity x`] returns x. Tested with integer, char and float inputs.
+* `identity`: [`identity x`] returns x. Testing is done on integer, char and float inputs.
 
 ### grade-function-multiple-args/test.ml
 
 * `op`: [`op x y`] returns the result of the operation `x * y + y`.
-
-

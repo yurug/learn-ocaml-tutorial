@@ -1,9 +1,9 @@
 {
   "learnocaml_version" : "2",
-  "kind"               : "exercise", 
-  "stars"              : 1, 
+  "kind"               : "exercise",
+  "stars"              : 1,
   "title"              : "Grading by comparison to the solution",
-  "short_description"   : "Step 2 - Part I",  
+  "short_description"   : "Step 2 - Part I",
   "identifier"         : "step-2.1",
   "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
   "focus"              : [],
