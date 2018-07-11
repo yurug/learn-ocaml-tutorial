@@ -1,1 +1,1 @@
-Grading a function with numerous arguments 
+Grading a multiple-arguments function
