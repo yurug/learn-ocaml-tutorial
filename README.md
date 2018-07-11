@@ -1,4 +1,4 @@
-# Step 3: Grading with generators for Ocaml built-in types
+# Step 3: Grading with generators for OCaml built-in types
 
 This repository contains the source files for the tutorial
 
@@ -11,13 +11,13 @@ git checkout step-X
 
 ## What is to learn in this step ?
 
-* How to use a predefined sampler 
+* How to use a predefined sampler.
 
-* How to define its own sampler using the optional argument `~sampler`
+* How to define its own sampler using the optional argument `~sampler`.
 
-* How to define its own sampler using a naming convention instead of `~sampler` 
+* How to define its own sampler using a naming convention instead of `~sampler`.
 
-## List of graded functions 
+## List of graded functions
 
 ### sampler-built-in-types/test.ml
 
@@ -33,7 +33,7 @@ git checkout step-X
 
 * `opt`: [`opt x`] return `x` if `x = None` and `a` if `x = Some a`
 
-* `opt_add`: [`opt_add x`] returns `0` if `x = None` and `a+b` if `x = Some (a, b)` 
+* `opt_add`: [`opt_add x`] returns `0` if `x = None` and `a+b` if `x = Some (a, b)`
 
 * `apply`
 

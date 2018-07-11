@@ -5,7 +5,7 @@ let first (x, y) = x
 let opt = function
   | None -> 0
   | Some x -> x
-                 
+
 let opt_add = function
   | None -> 0
   | Some (x, y) -> x + y

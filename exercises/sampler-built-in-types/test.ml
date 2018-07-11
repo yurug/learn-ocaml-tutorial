@@ -2,7 +2,7 @@ open Test_lib
 open Report
 
 (* A basic way to grade a function with automatically generated tests:
-   using the default sampler (works only for non-functional build-it
+   using the default sampler (works only for non-functional build-in
    types. *)
 let exercise_1 =
   Section ([ Text "Function: "; Code "identity" ],
@@ -11,7 +11,7 @@ let exercise_1 =
              ~gen:5 [0]
           )
 
-(* With a user-defined sampler : 
+(* With a user-defined sampler :
    Method 1: Using the optional argument ~sampler *)
 let exercise_2 =
   Section ([ Text "Function: "; Code "pi1" ],
@@ -24,7 +24,7 @@ let exercise_2 =
 
 
 (* With a user-defined sampler :
-   Method 2: redefine sampler with respect to naming rule
+   Method 2: redefine the sampler with respect to naming rule
    val sample_<type>: unit -> <type>  *)
 let sample_int () = Random.int 10 + 42
 let exercise_3 =

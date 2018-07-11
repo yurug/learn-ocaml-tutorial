@@ -1,7 +1,7 @@
 open Test_lib
 open Report
 
-(* An example with list, using predefined sampler *)
+(* An example with a list, using predefined sampler *)
 let exercise_1 =
   Section ([ Text "Function: "; Code "push" ],
            test_function_2_against_solution
@@ -10,7 +10,7 @@ let exercise_1 =
              []
     )
 
-(* An example with tuple *)
+(* An example with a tuple *)
 let exercise_2 =
   Section ([ Text "Function: "; Code "first" ],
            test_function_1_against_solution
@@ -20,7 +20,7 @@ let exercise_2 =
              []
     )
 
-(* An basic example with option type *)
+(* A basic example with an option type *)
 let exercise_3 =
   Section ([ Text "Function: "; Code "opt" ],
            test_function_1_against_solution
@@ -28,8 +28,8 @@ let exercise_3 =
              ~gen:5
              []
     )
-  
-(* An more advanced example with option type  *)
+
+(* A more advanced example with an option type  *)
 let sampler_4 () =
   let sampler_tuple () = (sample_int (), sample_int ()) in
   (sample_option sampler_tuple) ()
@@ -43,7 +43,7 @@ let exercise_4 =
              []
     )
 
-(* An example with functional type *)
+(* An example with a functional type *)
 let sampler_5 () =
   let sampler_f () = match Random.int 3 with
     | 0 -> succ
@@ -60,11 +60,11 @@ let exercise_5 =
              ~sampler:sampler_5
              []
     )
-  
-(* An example with array *)
+
+(* An example with an array *)
 let sampler_6 =
   sample_array ~min_size:1 ~max_size:10 sample_int
-  
+
 let exercise_6 =
   Section ([ Text "Function: "; Code "array_to_list" ],
            test_function_1_against_solution
@@ -75,8 +75,8 @@ let exercise_6 =
     )
 
 
-  
-  
+
+
 let () =
   set_result @@
   ast_sanity_check code_ast @@ fun () ->
