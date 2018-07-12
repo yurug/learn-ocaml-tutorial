@@ -1,0 +1,14 @@
+{
+  "learnocaml_version" : "2",
+  "kind"               : "exercise",
+  "stars"              : 1,
+  "title"              : "Automatically generated tests for built-it types",
+  "short_description"   : "Step 3 - I",
+  "identifier"         : "step-3.1",
+  "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
+  "focus"              : [],
+  "requirements"       : [],
+  "forward_exercises"  : [],
+  "backward_exercises" : []
+}
+
