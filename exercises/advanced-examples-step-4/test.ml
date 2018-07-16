@@ -21,12 +21,12 @@ let sampler_fun () = match Random.int 3 with
   | _ -> fun x -> if x < 0 then -1 else 1
 
 (* With method 2, you need to give an alias to a functional type
-   in order to use the naming convention for the sampler*)
+   in order to use the naming convention for the sampler. *)
 type f_int_int = int -> int
 
 let sample_f_int_int = sampler_fun
 
-(* With method 1, you don't need to name the functional type*)
+(* With method 1, you don't need to name the functional type. *)
 let sampler_2 () =
   (sample_f_int_int (), sample_list ~min_size:1 ~max_size:10 sample_int ())
 
@@ -54,7 +54,7 @@ let sample_pair_int () = sample_int (), sample_int ()
 
 let exercise_3 =
   Section ([ Text "Function: "; Code "first_elt" ],
-           (* Grader with method 1*)
+           (* Grader with method 1 *)
            test_function_1_against_solution
              [%ty:  pair_int -> int ] "first_elt"
              ~sampler: (fun () -> sample_int (), sample_int ())
