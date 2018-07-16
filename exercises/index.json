@@ -1,8 +1,10 @@
 { "learnocaml_version": "1",
   "groups":
   { "Tutorial":
-    { "title": "A trivial exercise",
-      "exercises": [ "trivial" ]
+    { "title": "Step 4 : Grading with generators for user-defined types",
+      "exercises": [ "sampler-user-defined-types",
+		     "sampler-user-defined-parametric-types",
+		     "advanced-examples-step-4"]
     }
   }
 }
