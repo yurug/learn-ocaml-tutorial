@@ -48,14 +48,8 @@ type col = R | B
 
 ### advanced-examples-step-4/test.ml
 
-* `push`: [`push elt l`] returns `elt :: l`.
+* `get_x`: [`get_x {x; y}`] returns `x`.
 
-* `first`: [`first (x, y)`] returns `x`
+* `map`: similar than `List.map`
 
-* `opt`: [`opt x`] return `x` if `x = None` and `a` if `x = Some a`
-
-* `opt_add`: [`opt_add x`] returns `0` if `x = None` and `a+b` if `x = Some (a, b)`
-
-* `apply`
-
-* `array_to_list`
+* `first_elt`: [`first_elt (x, y)`] returns `x`.
