@@ -1,4 +1,4 @@
-#  Step 5: Other test functions_
+#  Step 5: Other test functions for functions
 
 This repository contains the source files for the tutorial
 
@@ -11,26 +11,19 @@ git checkout step-X
 
 ## What is to learn in this step ?
 
-How to:
+* Signature of all three test functions for functions
 
-* grade a arity-one function by comparison to a given solution
-
-* grade multiple-arguments functions
-
-* grade a polymorphic function with different input types
+* Purpose of each optional arguments and the right tutorial to learn how to use them
 
 ## List of graded functions 
 
-### grade-function/test.ml
+### identity/test.ml
 
-* `identity`: [`identity x`] returns x. Tested with integer inputs.
+* `identity`: [`identity x`] returns x. Graded with the three test functions.
 
-### grade-function-polymorphic/test.ml
+### hello_world/test.ml
 
-* `identity`: [`identity x`] returns x. Tested with integer, char and float inputs.
-
-### grade-function-multiple-args/test.ml
-
-* `op`: [`op x y`] returns the result of the operation `x * y + y`.
+* `hello_world`: [`hello_world ()`] prints "Hello world!". Graded with
+  the three test functions.
 
 
