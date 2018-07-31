@@ -1,1 +1,1 @@
-let identity x = x
+let identity2 x = x

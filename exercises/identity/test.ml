@@ -3,12 +3,12 @@ open Report
 
 (* Example with test_function_1_against_solution *)
 let exercise_1 = 
-  Section ([ Text "Function: "; Code "identity" ], 
+  Section ([ Text "Function: "; Code "identity2" ], 
            test_function_1_against_solution 
              [%ty: int -> int] (* Type of the tested function *)
-             "identity"        (* identifier of the tested function *)
+             "identity2"        (* identifier of the tested function *)
              ~gen:10           (* number of automatically generated tests *)
-             []                (* List of tested inputs *)
+             [0 ; 42]          (* List of tested inputs *)
           )
 
 (* Example with test_function_1_against *)
@@ -19,7 +19,7 @@ let exercise_2 =
              "identity"        (* identifier of the tested function *)
              (fun x -> x)      (* solution function*)
              ~gen:10           (* number of automatically generated tests *)
-             []                (* List of tested inputs *)
+             [0 ; 42]          (* List of tested inputs *)
     )
   
 (* Example with test_function_1 *)

@@ -13,11 +13,11 @@ git checkout step-X
 
 * Signature of all three test functions for functions
 
-* Purpose of each optional arguments and the right tutorial to learn how to use them
+* Purpose of each optional arguments and link to the right tutorial to learn how to use them
 
 ## What you will not learn in this step
 
-* How to write advanced exercises. See the documentation for 
+* How to write non-trivial exercises. See the documentation for 
 [this step](https://github.com/ocaml-sf/learn-ocaml/blob/master/docs/tutorials/step-5.md) or the 
 [index](https://github.com/ocaml-sf/learn-ocaml/blob/master/docs/howto-write-exercises.md)
   to find the right one.
@@ -26,11 +26,11 @@ git checkout step-X
 
 ### identity/test.ml
 
-* `identity`: [`identity x`] returns x. Graded with the three test functions.
+* `identity`: [`identity x`] returns x. This function is graded with the three test functions is shown.
 
 ### hello_world/test.ml
 
-* `hello_world`: [`hello_world ()`] prints "Hello world!". Graded with
+* `hello_world`: [`hello_world ()`] prints "Hello world!". This function is graded with
   the three test functions.
 
 
