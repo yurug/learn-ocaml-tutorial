@@ -2,7 +2,7 @@
   "groups":
   { "Tutorial":
     { "title": "Step 5 : Grading with different test functions",
-      "exercises": [ "identity", "hello_world"]
+      "exercises": [ "step-5-examples"]
     }
   }
 }

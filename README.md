@@ -1,4 +1,4 @@
-#  Step 5: Other test functions for functions
+#  Step 5: More about test functions
 
 This repository contains the source files for the tutorial
 
@@ -11,7 +11,7 @@ git checkout step-X
 
 ## What is to learn in this step ?
 
-* Signature of all three test functions for functions
+* Signature of `test_function_1_against_solution`
 
 * Purpose of each optional arguments and link to the right tutorial to learn how to use them
 
@@ -20,17 +20,14 @@ git checkout step-X
 * How to write non-trivial exercises. See the documentation for 
 [this step](https://github.com/ocaml-sf/learn-ocaml/blob/master/docs/tutorials/step-5.md) or the 
 [index](https://github.com/ocaml-sf/learn-ocaml/blob/master/docs/howto-write-exercises.md)
-  to find the right one.
+  to find the right tutorial.
 
 ## List of graded functions 
 
-### identity/test.ml
+### step-5-examples/test.ml
 
-* `identity`: [`identity x`] returns x. This function is graded with the three test functions is shown.
+* `identity`: [`identity x`] returns x. 
 
-### hello_world/test.ml
-
-* `hello_world`: [`hello_world ()`] prints "Hello world!". This function is graded with
-  the three test functions.
+* `hello`: [`hello ()`] prints "Hello world!".
 
 
