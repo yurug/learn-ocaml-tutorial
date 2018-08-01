@@ -16,8 +16,8 @@ let exercise_2 =
   Section ([ Text "Function: "; Code "hello" ], 
            test_function_1_against_solution 
              [%ty: unit -> unit] (* Type of the tested function *)
-             ~test:test_ignore   (* Function that compare outputs *)
-             ~test_stdout:io_test_equals  (* Function that compare standart outputs *)
+             ~test:test_ignore   (* Function that compares outputs *)
+             ~test_stdout:io_test_equals  (* Function that compares standart outputs *)
              "hello"             (* identifier of the tested function *)
              ~gen:0         
              [()]           
