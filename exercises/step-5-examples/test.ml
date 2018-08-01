@@ -12,8 +12,18 @@ let exercise_1 =
              [0 ; 42]          (* List of tested inputs *)
     )
 
-(* Simple example with standart outputs *)
+(* Trivial example with automatic test generations *)
 let exercise_2 = 
+  Section ([ Text "Function: "; Code "identity" ], 
+           test_function_1 
+             [%ty: int -> int] (* Type of the tested function *)
+             "identity"        (* identifier of the tested function *)
+             [0, 0, "", "prout" ;
+              42, 42, "prout", ""]  (* List of tests *)
+    )
+  
+(* Simple example with standart outputs *)
+let exercise_3 = 
   Section ([ Text "Function: "; Code "hello" ], 
            test_function_1_against_solution 
              [%ty: unit -> unit] (* Type of the tested function *)
@@ -23,9 +33,19 @@ let exercise_2 =
              ~gen:0         
              [()]           
           )
-  
+
+let exercise_4 = 
+  Section ([ Text "Function: "; Code "hello" ], 
+           test_function_1 
+             [%ty: unit -> unit] (* Type of the tested function *)
+             ~test:test_ignore   (* Function that compares outputs *)
+             ~test_stdout:io_test_equals  (* Function that compares standart outputs *)
+             "hello"             (* identifier of the tested function *)
+             [(), (), "Hello world!", ""]           
+          )
+    
   
 let () = 
   set_result @@
   ast_sanity_check code_ast @@ fun () ->
-  [ exercise_1; exercise_2] (* List of exercises *)
+  [ exercise_1; exercise_2; exercise_3; exercise_4] (* List of exercises *)

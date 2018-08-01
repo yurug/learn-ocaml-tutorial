@@ -11,7 +11,7 @@ git checkout step-X
 
 ## What is to learn in this step ?
 
-* Signature of `test_function_1_against_solution`
+* Signature of `test_function_1_against_solution` and `test_function_1`
 
 * Purpose of each optional arguments and link to the right tutorial to learn how to use them
 
