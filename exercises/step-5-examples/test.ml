@@ -8,6 +8,7 @@ let exercise_1 =
              [%ty: int -> int] (* Type of the tested function *)
              "identity"        (* identifier of the tested function *)
              ~gen:10           (* number of automatically generated tests *)
+             ~sampler:(fun () -> Random.int 42) (* sampler *)
              [0 ; 42]          (* List of tested inputs *)
     )
 
