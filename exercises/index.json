@@ -1,8 +1,8 @@
 { "learnocaml_version": "1",
   "groups":
   { "Tutorial":
-    { "title": "A trivial exercise",
-      "exercises": [ "trivial" ]
+    { "title": "Step 5 : Grading with different test functions",
+      "exercises": [ "step-5-examples"]
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "learnocaml_version" : "2",
+  "kind"               : "exercise", 
+  "stars"              : 1, 
+  "title"              : "Trivial examples",
+  "short_description"  : "Step 5",  
+  "identifier"         : "step-5",
+  "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
+  "focus"              : [],
+  "requirements"       : [],
+  "forward_exercises"  : [],
+  "backward_exercises" : []
+}
