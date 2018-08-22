@@ -1,4 +1,4 @@
-# How to write exercises for the learn-ocaml platform? (Resources)
+# Step 7: Examples of use of optional arguments [~test], [~test_stdout], [~test_stderr] 
 
 This repository contains the source files for the tutorial
 
