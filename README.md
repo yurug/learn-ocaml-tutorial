@@ -1,4 +1,4 @@
-# Step 7: Modifying the comparison functions (testers) with the optional arguments [~test], [~test_stdout], [~test_stderr] 
+# Step 7: Modifying the comparison functions (testers) with the optional arguments [~test], [~test_stdout], [~test_stderr]
 
 This repository contains the source files for the tutorial [How to
 write exercises for the learn-ocaml
@@ -17,20 +17,20 @@ For instance, for step 1, do `git checkout step-1`.
 * How to change the functions that compare student output, standard
   output and standard error.
 
-* Signature of predefined testers, IO testers and corresponding builders. 
+* Signature of predefined testers, IO testers and corresponding builders.
 
 * An specific application: How to grade a student code using a
   predicat instead of a comparison with a solution function.
 
-## List of graded functions 
+## List of graded functions
 
 ### tester/test.ml
-Used the type 
-```ocaml 
-type tri = Zero | One | Two 
+Used the type
+```ocaml
+type tri = Zero | One | Two
 ```
 
-* `convert`: [`convert x`] converts x into the appropriate `tri`. 
+* `convert`: [`convert x`] converts x into the appropriate `tri`.
 
 * `-`: [`x - y `] computes the substraction of two `tri`.
 
@@ -38,7 +38,7 @@ type tri = Zero | One | Two
 
 ### io_tester/test.ml
 
-* `print_tri`: [`print_tri t`] prints t. 
+* `print_tri`: [`print_tri t`] prints t.
 
 * `print_tri_list`: [`print_tri_list l`] prints the `tri` list l.
 
@@ -46,6 +46,6 @@ type tri = Zero | One | Two
 
 ### grading_with_predicate/test.ml
 
-* `rand_int`: [`rand_int ()`] returns a random integer between 0 and 10. 
+* `rand_int`: [`rand_int ()`] returns a random integer between 0 and 10.
 
 * `rand_kist`: [`rand_list n`] returns a list of size n of random integer between 0 and 10
