@@ -1,8 +1,8 @@
-{ "learnocaml_version": "1",
+{ "learnocaml_version": "2",
   "groups":
   { "Tutorial":
-    { "title": "A trivial exercise",
-      "exercises": [ "trivial" ]
+    { "title": "Step 7",
+      "exercises": [ "tester", "io_tester", "grading_with_predicate" ]
     }
   }
 }

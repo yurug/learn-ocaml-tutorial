@@ -1,0 +1,13 @@
+{
+  "learnocaml_version" : "2",
+  "kind"               : "exercise",
+  "stars"              : 1,
+  "title"              : "IO testers",
+  "shortDescription"   : "How to change comparison function between student and solution standard or error outputs?",
+  "identifier"         : "step-7-2",
+  "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
+  "focus"              : [],
+  "requirements"       : [],
+  "forward_exercises"  : [],
+  "backward_exercises" : []
+}
