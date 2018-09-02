@@ -1,4 +1,4 @@
-# Step 7: Modifying the comparison functions (testers) with the optional arguments [~test], [~test_stdout], [~test_stderr]
+# Step 7: Modifying the comparison functions (testers) with the optional arguments `~test`, `~test_stdout`, `~test_stderr`
 
 This repository contains the source files for the tutorial [How to
 write exercises for the learn-ocaml
