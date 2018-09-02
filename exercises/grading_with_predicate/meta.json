@@ -1,0 +1,13 @@
+{
+  "learnocaml_version" : "2",
+  "kind"               : "exercise",
+  "stars"              : 1,
+  "title"              : "Grading with predicate",
+  "shortDescription"   : "How to grade with predicate?",
+  "identifier"         : "step-7-3",
+  "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
+  "focus"              : [],
+  "requirements"       : [],
+  "forward_exercises"  : [],
+  "backward_exercises" : []
+}
