@@ -15,12 +15,12 @@ For instance, for step 1, do `git checkout step-1`.
 ## What is to learn in this step ?
 
 * How to change the functions that compare student output, standard
-  output and standard error.
+  output and standard error with the solution ones.
 
-* Signature of predefined testers, IO testers and corresponding builders.
+* Signatures of predefined testers, IO testers and corresponding builders.
 
-* An specific application: How to grade a student code using a
-  predicat instead of a comparison with a solution function.
+* A specific application: How to grade a student code using a
+  predicate instead of a comparison with a solution function.
 
 ## List of graded functions
 
@@ -48,4 +48,4 @@ type tri = Zero | One | Two
 
 * `rand_int`: [`rand_int ()`] returns a random integer between 0 and 10.
 
-* `rand_kist`: [`rand_list n`] returns a list of size n of random integer between 0 and 10
+* `rand_list`: [`rand_list n`] returns a list of size n of random integers between 0 and 10
